@@ -6098,8 +6098,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\APT01-042\\Desktop\\Tokens\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "c:\\Users\\APT01-042\\Desktop\\Tokens\\Aplicacion\\Aplicacion.csproj"
+            "C:\\Users\\APT01-042\\Desktop\\Tokens\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\APT01-042\\Desktop\\Tokens\\Aplicacion\\Aplicacion.csproj"
             }
           }
         }
