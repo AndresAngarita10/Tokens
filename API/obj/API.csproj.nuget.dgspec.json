@@ -125,8 +125,8 @@
               "C:\\Users\\APT01-042\\Desktop\\Tokens\\Dominio\\Dominio.csproj": {
                 "projectPath": "C:\\Users\\APT01-042\\Desktop\\Tokens\\Dominio\\Dominio.csproj"
               },
-              "c:\\Users\\APT01-042\\Desktop\\Tokens\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "c:\\Users\\APT01-042\\Desktop\\Tokens\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\APT01-042\\Desktop\\Tokens\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\APT01-042\\Desktop\\Tokens\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -227,14 +227,14 @@
         }
       }
     },
-    "c:\\Users\\APT01-042\\Desktop\\Tokens\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\APT01-042\\Desktop\\Tokens\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-042\\Desktop\\Tokens\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-042\\Desktop\\Tokens\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "c:\\Users\\APT01-042\\Desktop\\Tokens\\Persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\Users\\APT01-042\\Desktop\\Tokens\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\APT01-042\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-042\\Desktop\\Tokens\\Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\APT01-042\\Desktop\\Tokens\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-042\\AppData\\Roaming\\NuGet\\NuGet.Config"

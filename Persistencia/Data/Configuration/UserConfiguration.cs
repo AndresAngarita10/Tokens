@@ -22,7 +22,7 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
         builder.Property(x => x.Password)
         .HasColumnName("password")
         .HasColumnType("varchar")
-        .HasMaxLength(50)
+        .HasMaxLength(255)
         .IsRequired();
 
         

@@ -18,7 +18,7 @@ public class UserRepository: GenericRepository<User>, IUser
     public override async Task<IEnumerable<User>> GetAllAsync()
     {
         return await _context.Users
-            //.Include(p => p.)//.ThenInclude(c => c.Ciudades)
+            .Include(p => p.Rols)//.ThenInclude(c => c.Ciudades)
             .ToListAsync();
     }
 

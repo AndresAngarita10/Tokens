@@ -10,7 +10,7 @@ namespace Persistencia;
 
 public class TokensContext : DbContext
 {
-    public TokensContext(DbContextOptions options) : base(options)
+    public TokensContext(DbContextOptions<TokensContext> options) : base(options)
     {
     }
     
