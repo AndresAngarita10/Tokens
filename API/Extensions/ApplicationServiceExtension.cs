@@ -28,8 +28,8 @@ public static class ApplicationServiceExtension
         //Services.AddScoped<IpaisInterface,PaisRepository>();
         //Services.AddScoped<ITipoPersona,TipoPeronsaRepository>();
         services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
-        services.AddScoped<IUserService, UserService>();
-        services.AddScoped<IAuthorizationHandler, GlobalVerbRoleHandler>();
+        services.AddScoped<IUserService, UserService>();//Lo necesrio para generar tokens
+        services.AddScoped<IAuthorizationHandler, GlobalVerbRoleHandler>();//interfaz de autorizacion personalizada
         services.AddScoped<IUnitOfWork, UnitOfWork>();
     }
 

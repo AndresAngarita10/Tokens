@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using API.Extensions;
 using Persistencia;
+using Microsoft.AspNetCore.Authorization;
+using API.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,8 +13,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHttpContextAccessor();//--- parece qie se necesita con JWT
-builder.Services.AddAplicacionServices();
+builder.Services.AddAplicacionServices();// -- no olvidar ponerlo tambien
 builder.Services.AddJwt(builder.Configuration); //--Inyeccion servicios JWT Extensions
+builder.Services.AddAuthorization(opt =>  // --- Esto es del JWT
+{
+    opt.DefaultPolicy = new AuthorizationPolicyBuilder()
+            .RequireAuthenticatedUser()
+            .AddRequirements(new GlobalVerbRoleRequirement())
+            .Build();
+});
+
 builder.Services.AddDbContext<TokensContext>(options =>
 {
     string connectionString = builder.Configuration.GetConnectionString("ConexMysql");
@@ -30,7 +40,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
-app.UseAuthentication();//-- Va junto al JWT, va antes de autorizacion siempre
+//app.UseAuthentication();//-- Va junto al JWT, va despues de autorizacion siempre
 
 app.MapControllers();
 

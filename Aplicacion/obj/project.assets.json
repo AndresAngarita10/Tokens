@@ -5240,11 +5240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\APT01-042\\Desktop\\Tokens\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "C:\\Users\\APT01-042\\Desktop\\Tokens\\Aplicacion\\Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "c:\\Users\\APT01-042\\Desktop\\Tokens\\Aplicacion\\Aplicacion.csproj",
+      "projectPath": "C:\\Users\\APT01-042\\Desktop\\Tokens\\Aplicacion\\Aplicacion.csproj",
       "packagesPath": "C:\\Users\\APT01-042\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\APT01-042\\Desktop\\Tokens\\Aplicacion\\obj\\",
+      "outputPath": "C:\\Users\\APT01-042\\Desktop\\Tokens\\Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\APT01-042\\AppData\\Roaming\\NuGet\\NuGet.Config"

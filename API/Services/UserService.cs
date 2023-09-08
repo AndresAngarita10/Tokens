@@ -67,7 +67,7 @@ public class UserService : IUserService
                         .GetByUserNameAsync(model.Username);
         if(usuario == null)
         {
-            return $"No eciste algun usurio registrado con la cuente, olvido algun caracter?{model.Username}";
+            return $"No existe algun usurio registrado con la cuente, olvido algun caracter?{model.Username}";
 
         }
         var resultado = _passwordHasher.VerifyHashedPassword(usuario, usuario.Password, model.Password );
